@@ -1,0 +1,13 @@
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\bin\Debug\Academic Library Monitoring System.exe
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\bin\Debug\Academic Library Monitoring System.pdb
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic Library Monitoring System.csprojResolveAssemblyReference.cache
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Home.resources
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Login.resources
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Logout.resources
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Properties.Resources.resources
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic Library Monitoring System.csproj.GenerateResource.Cache
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic Library Monitoring System.csproj.CoreCompileInputs.cache
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic Library Monitoring System.exe
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic Library Monitoring System.pdb
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Admin.resources
+C:\Users\jayan\source\repos\Academic Library Monitoring System\Academic Library Monitoring System\obj\Debug\Academic_Library_Monitoring_System.Borrow.resources
