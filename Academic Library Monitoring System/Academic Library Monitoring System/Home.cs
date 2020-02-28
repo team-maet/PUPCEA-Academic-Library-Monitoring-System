@@ -46,5 +46,13 @@ namespace Academic_Library_Monitoring_System
         {
             LoadNextImage();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Admin sistema = new Admin();
+            sistema.ShowDialog();
+            this.Close();
+        }
     }
 }
