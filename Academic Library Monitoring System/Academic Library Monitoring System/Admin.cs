@@ -39,27 +39,29 @@ namespace Academic_Library_Monitoring_System
             {
                 string insertQuery = "INSERT INTO pizza.delivery(student-no,name,course,address,phone-no) VALUES('" + jMaterialTextbox1.Text + "','" + jMaterialTextbox2.Text + "','" + jMaterialTextbox3.Text + "','" + jMaterialTextbox4.Text + "','" + jMaterialTextbox5.Text + "')";
                 Connect.Open();
-                MySqlCommand test = new MySqlCommand(insertQuery, Connect);
-            }
-            try
-            {
-             
-                if (test.ExecuteNonQuery() == 1)
-                {
-                    MessageBox.Show("Data Inserted");
-                }
-                else
-                {
-                    MessageBox.Show("Data Not Inserted");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+          
+                MySqlCommand command = new MySqlCommand(insertQuery, Connect);
 
-            Connect.Close();
+                try
+                {
+                    if (command.ExecuteNonQuery() == 1)
+                    {
+                        MessageBox.Show("Data Inserted");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Data Not Inserted");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+                Connect.Close();
+            }
         
-         }
+
+        }
     }
 }
