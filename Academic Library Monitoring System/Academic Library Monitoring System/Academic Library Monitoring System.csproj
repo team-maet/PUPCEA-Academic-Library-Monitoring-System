@@ -34,6 +34,10 @@
     <Reference Include="FlatButton">
       <HintPath>..\..\..\..\..\jps\FlatButton.dll</HintPath>
     </Reference>
+    <Reference Include="JGradient Panel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\JGradient Panel.dll</HintPath>
+    </Reference>
     <Reference Include="JImageButton">
       <HintPath>..\..\..\..\..\jps\JImageButton.dll</HintPath>
     </Reference>
@@ -67,6 +71,9 @@
     </Compile>
     <Compile Include="Borrow.Designer.cs">
       <DependentUpon>Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -111,6 +118,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -121,6 +129,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons\admin-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

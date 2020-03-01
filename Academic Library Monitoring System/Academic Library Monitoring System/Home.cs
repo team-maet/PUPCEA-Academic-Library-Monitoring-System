@@ -34,11 +34,11 @@ namespace Academic_Library_Monitoring_System
 
         private void LoadNextImage()
         {
-            if (imageNumber == 5)
+            if (imageNumber == 6)
             {
                 imageNumber = 1;
             }
-            pictureBox1.ImageLocation = string.Format(@"images\{0}.jpg", imageNumber);
+            pictureBox1.ImageLocation = string.Format(@"pup-background\{0}.jpg", imageNumber);
             imageNumber++;
         }
 
@@ -49,10 +49,36 @@ namespace Academic_Library_Monitoring_System
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             this.Hide();
             Admin sistema = new Admin();
             sistema.ShowDialog();
             this.Close();
+        }
+
+        private void buttonLogin_MouseEnter(object sender, EventArgs e)
+        {
+            buttonLogin.BackColor = Color.Maroon;
+        }
+
+        private void buttonLogin_MouseLeave(object sender, EventArgs e)
+        {
+            buttonLogin.BackColor = Color.White;
+        }
+
+        private void buttonLogout_MouseEnter(object sender, EventArgs e)
+        {
+            buttonLogout.BackColor = Color.Maroon;
+        }
+
+        private void buttonLogout_MouseLeave(object sender, EventArgs e)
+        {
+            buttonLogout.BackColor = Color.White;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
