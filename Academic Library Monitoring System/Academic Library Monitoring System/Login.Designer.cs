@@ -92,7 +92,7 @@
             this.textPassword.PasswordChar = '*';
             this.textPassword.Size = new System.Drawing.Size(136, 20);
             this.textPassword.TabIndex = 15;
-            this.textPassword.Text = "********";
+            this.textPassword.Text = "aaaaaaaa";
             this.textPassword.Enter += new System.EventHandler(this.textPassword_Enter);
             this.textPassword.Leave += new System.EventHandler(this.textPassword_Leave);
             // 
@@ -128,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Maroon;
             this.ClientSize = new System.Drawing.Size(577, 335);
+            this.ControlBox = false;
             this.Controls.Add(this.buttonLogin_Back);
             this.Controls.Add(this.buttonLogin_Submit);
             this.Controls.Add(this.textPassword);
@@ -138,6 +139,7 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Academic Library Monitoring System | LOGIN";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
