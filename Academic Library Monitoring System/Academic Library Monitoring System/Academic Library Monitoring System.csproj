@@ -72,9 +72,13 @@
     <Compile Include="Borrow.Designer.cs">
       <DependentUpon>Borrow.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="CircularButton.cs">
       <SubType>Component</SubType>
     </Compile>
+=======
+    <Compile Include="DB.cs" />
+>>>>>>> 395a43328ea5f853a1f4eaba8e1c883d9d6ece46
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
